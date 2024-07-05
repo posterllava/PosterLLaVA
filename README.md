@@ -10,7 +10,7 @@ This repository is for the paper "PosterLLaVa: Constructing a Unified Multi-moda
 
 **[2024.07.04]** Release [QB-Poster](https://drive.google.com/file/d/1gRHTidpU0nePpjtDQElIVbAts8ziCkVh/view?usp=drive_link) dataset📊. (raw files contain <u>original poster images</u> and <u>JSON annotations</u>, inpainting and saliency detection techniques are needed for obtaining background images and saliency maps.)
 
-**[2024.07.04]** Release [User-Constrained](https://drive.google.com/file/d/1dlfxTC6QaV3Piyn655TMvTEv7-tCWuWk/view?usp=drive_link) dataset📊. (only include <u>user-constraint annotation</u> files. please refer to the CGL-dataset and PosterLayout dataset to get the poster images and bounding box annotations.)
+**[2024.07.04]** Release [User-Constrained](https://drive.google.com/file/d/1dlfxTC6QaV3Piyn655TMvTEv7-tCWuWk/view?usp=drive_link) dataset📊. (only include <u>user-constraint annotation</u> files. please refer to the [CGL-dataset](https://tianchi.aliyun.com/dataset/142692/notebook) and [PosterLayout](http://39.108.48.32/mipl/PosterLayout/) dataset to get the poster images and bounding box annotations.)
 
 **[2024.07.04]** Release data pre-processing, training, and inferencing code.
 
