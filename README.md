@@ -29,7 +29,7 @@ pip install flash-attn --no-build-isolation
 
 ## Data Processing 
 
-Download the dataset files and arrange them as follows (QB-Poster as an example).
+Download the dataset files and arrange them as follows (QB-Poster as an example). Run the saliency detection method to get 'saliency_map' and the inpainting method to get 'inpainted_1x' and 'inpainted_1d5x' (used for inference and training respectively; notice we randomly inpainted 0.5x more regions besides the ground-truth bounding box area to avoid overfitting.)
 
 ```
 ├── data
