@@ -3,6 +3,9 @@ This repository is for the paper "PosterLLaVa: Constructing a Unified Multi-moda
 
 <img src="/framework.png" alt="framework">
 
+## Usage Acknowledgement
+Notice we only authorize using the proposed dataset for scientific research. One should NOT use it for commercial purposes without our authorization.
+
 ## 🗓️ Schedule
 **[2024.03.26]** Release [online demo](https://huggingface.co/spaces/posterllava/PosterLLaVA) and [pre-trained model](https://huggingface.co/posterllava/posterllava_v0) on hugging face🤗.
 
