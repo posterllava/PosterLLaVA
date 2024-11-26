@@ -47,6 +47,8 @@ Notice that we only authorize the use of the proposed dataset for scientific res
 
 **[Coming Soon]** Release evaluation code.
 
+**[Coming Soon]** Release notebook demo for PosterGen.
+
 ## Environment
 
 Run the following code to build the environment.
