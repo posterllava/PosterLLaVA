@@ -1,9 +1,13 @@
 # PosterLLaVa: Constructing a Unified Multi-modal Layout Generator with LLM
-This repository is for the paper "PosterLLaVa: Constructing a Unified Multi-modal Layout Generator with LLM" (under review).
+This repository is for the paper [PosterLLaVa: Constructing a Unified Multi-modal Layout Generator with LLM](https://arxiv.org/abs/2406.02884) (under review).
 
 <div align="center"><img src="/framework.png" width="800"></div>
 
-## 🎊 News: Automatic Text-to-poster pipeline PosterGen
+## 🎊 News: arXiv paper is updated!
+1. We updated the arXiv paper with PosterGen as a supplement for PosterLLaVa. 
+2. The preprocessed dataset (saliency maps and inpainted background images) is provided to save repetitive effort. 
+
+## PosterGen: An Automatic Text-to-poster Pipeline
 Now we are heading from layout toward the real sense of *graphic poster* design. A *text-to-poster* pipeline, **PosterGen**, will soon be available online to support the real-world application of PosterLLaVA. There are some previewing examples:
 
 <div align="center">
@@ -22,7 +26,7 @@ Now we are heading from layout toward the real sense of *graphic poster* design.
 </div>
 
 ## 🤝 Usage Acknowledgement
-Notice we only authorize using the proposed dataset for scientific research. One should NOT use it for commercial purposes without our authorization.
+Notice that we only authorize the use of the proposed dataset for scientific research. One should NOT use it for commercial purposes without our authorization (please refer to [CC-BY-NC](https://creativecommons.org/licenses/by-nc/4.0/) license.)
 
 ## 🗓️ Schedule
 **[2024.03.26]** Release [online demo](https://huggingface.co/spaces/posterllava/PosterLLaVA) and [pre-trained model](https://huggingface.co/posterllava/posterllava_v0) on hugging face🤗.
@@ -36,6 +40,10 @@ Notice we only authorize using the proposed dataset for scientific research. One
 **[2024.07.04]** Release data pre-processing, training, and inferencing code.
 
 **[2024.08.29]** An automatic text-to-poster system **PosterGen** (with *PosterLLaVA* as the backbone) will soon be open-sourced to supplement this work. 
+
+**[2024.11.26]** Updated the arXiv paper including the PosterGen section. 
+
+**[2024.11.26]** Uploaded the preprocessed saliency maps and inpainted background images of QB-Poster. Please refer to the inpainted background images used for [training](https://drive.google.com/file/d/1lfq-OY7yrsNl59v8sgSi6vYklpySDHED/view?usp=drive_link) (with extra 0.5x random-selected regions inpainted to avoid overfitting), and [evaluation](https://drive.google.com/file/d/1YVrvFT_jVkTodSZsbmOyPDyQV6fVjigp/view?usp=drive_link), and the [saliency maps](https://drive.google.com/file/d/1I8sXNX7QHfHlocI_23EN6Xl9pYQdGEoC/view?usp=drive_link) extracted with basenet.
 
 **[Coming Soon]** Release evaluation code.
 
