@@ -2,6 +2,7 @@
 This repository is for the paper [PosterLLaVa: Constructing a Unified Multi-modal Layout Generator with LLM](https://arxiv.org/abs/2406.02884) (under review).
 
 <div align="center"><img src="/framework.png" width="800"></div>
+
 ## 💐 News: PosterLLaVA has been accepted for publication in IEEE Transactions on Multimedia (TMM)!
 
 ## 🎊 News: arXiv paper is updated!
