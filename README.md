@@ -3,7 +3,8 @@ This repository is for the paper [PosterLLaVa: Constructing a Unified Multi-moda
 
 <div align="center"><img src="/framework.png" width="800"></div>
 
-## 💐 News: PosterLLaVA has been accepted for publication in IEEE Transactions on Multimedia (TMM)!
+## 💐 News: Congratulations!
+PosterLLaVA has now been accepted for publication in IEEE Transactions on Multimedia (TMM)!
 
 ## 🎊 News: arXiv paper is updated!
 1. We updated the arXiv paper with PosterGen as a supplement for PosterLLaVA. 
